@@ -65,7 +65,7 @@ li a:hover {
 }
 
 header button {
-    font-size: var(--step-0);
+    font-size: var(--step-5);
     padding: .2rem 1rem;
 }
 
