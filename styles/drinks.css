@@ -49,7 +49,7 @@ font rules */
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 20dvh 10dvw;
+    padding: 20dvh 5dvw;
     gap: 2rem;
 }
 
@@ -99,4 +99,12 @@ font rules */
     background: url(../img/midjourney/apple_cinnamon_daquiri.png);
     background-size: cover;
     background-position: center;
+}
+
+@media (min-width: 2000px) {
+    .drinks .cardsContainer {
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, max(300px, 100%/7)), 1fr));
+        gap: var(--step-3);
+        padding: var(--step-3) 0;
+    }
 }

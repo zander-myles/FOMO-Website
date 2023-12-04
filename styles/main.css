@@ -133,9 +133,3 @@ button:hover {
 .bold {
     font-weight: 800;
 }
-
-@media (min-width: 1920px) {
-    body {
-        width: 1920px;
-    }
-}

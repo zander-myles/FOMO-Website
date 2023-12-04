@@ -136,3 +136,11 @@ font rules */
     background-size: cover;
     background-position: center;
 }
+
+@media (min-width: 2000px) {
+    .cardsContainer {
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, max(350px, 100%/7)), 1fr));
+        gap: var(--step-3);
+        padding: var(--step-3) 0;
+    }
+}
